@@ -5,7 +5,12 @@
     font-family: "Inter", sans-serif;
 }
 body{
+    height: 100vh;
     background-color: #88b43d;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
 }
 .cabecalho{
     display: flex;
@@ -24,6 +29,7 @@ body{
     font-size: 20px;
     font-family: "Inter", sans-serif;
     gap: 18px;
+    
 }
 .btns{
     display: flex;
@@ -43,4 +49,8 @@ body{
     border: black 2px solid;
     box-shadow: black 5px 5px 0px;
 
+}
+.btns a:hover {
+    background-color: #438667;
+    color: white;
 }
